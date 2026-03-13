@@ -16,7 +16,21 @@ Instead of treating glaucoma detection as a pure black-box classification proble
 - **Vessel Tortuosity**
 
 This project was developed as part of our final-year academic work, with support and involvement from BioScan AI.
-![Optic Disc and Optic Cup Segmentation Output](ocod.png)
+
+## Sample Results
+
+### OD/OC Segmentation
+![OD/OC Segmentation](Images/ocod.png)
+
+### Vessel Segmentation
+<p align="center">
+  <img src="Images/segmented_EyePACS-Glaucoma-2787.jpg.png" width="45%" />
+  <img src="Images/segmented_EyePACS-Glaucoma-2784.jpg.png" width="45%" />
+</p>
+
+### Feature Distribution
+![Feature Graph](Images/anothergraph.png)
+
 ---
 
 ## Repository Structure
@@ -25,6 +39,7 @@ This project was developed as part of our final-year academic work, with support
 .
 ├── Main_Vessel_Segmentation_Part.ipynb   # vessel segmentation + vascular feature extraction
 ├── Main_oc_od.ipynb                      # optic disc/cup segmentation + vCDR analysis
+├── Images                                # images for Readme
 └── README.md
 ```
 
